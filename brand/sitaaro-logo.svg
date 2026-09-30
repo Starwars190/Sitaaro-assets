@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="#FFFCF7"/>
+<defs>
+<path id="star" d="M0,-40 C6,-8 8,-6 40,0 C8,6 6,8 0,40 C-6,8 -8,6 -40,0 C-8,-6 -6,-8 0,-40Z"/>
+<g id="note">
+<ellipse cx="0" cy="0" rx="30" ry="22" transform="rotate(-20)"/>
+<rect x="22" y="-140" width="9" height="140"/>
+<path d="M31,-140 C60,-110 85,-95 70,-50 C75,-85 55,-100 31,-105Z"/>
+</g>
+</defs>
+
+<g transform="translate(-20,-20)"><g transform="rotate(-12 440 600)">
+<g fill="#16233F">
+<rect x="410" y="175" width="60" height="50" rx="10"/>
+<circle cx="404" cy="200" r="12"/><circle cx="476" cy="200" r="12"/>
+<circle cx="410" cy="270" r="11"/><circle cx="470" cy="300" r="11"/>
+<circle cx="410" cy="340" r="11"/>
+<rect x="418" y="220" width="44" height="400" rx="8"/>
+<circle cx="440" cy="740" r="175"/>
+</g>
+<g stroke="#FFFCF7" stroke-width="3">
+<line x1="418" y1="280" x2="462" y2="280"/><line x1="418" y1="330" x2="462" y2="330"/>
+<line x1="418" y1="380" x2="462" y2="380"/><line x1="418" y1="430" x2="462" y2="430"/>
+<line x1="418" y1="480" x2="462" y2="480"/><line x1="418" y1="530" x2="462" y2="530"/>
+</g>
+<g stroke="#C99A4E" stroke-width="2.5">
+<line x1="432" y1="225" x2="432" y2="820"/><line x1="440" y1="225" x2="440" y2="820"/><line x1="448" y1="225" x2="448" y2="820"/>
+</g>
+<circle cx="440" cy="720" r="44" fill="#FFFCF7"/>
+<rect x="385" y="815" width="110" height="14" rx="7" fill="#FFFCF7"/>
+</g>
+<g fill="#C99A4E">
+<use href="#note" transform="translate(690,620) scale(0.9)"/>
+<use href="#note" transform="translate(780,500) scale(1)"/>
+<use href="#note" transform="translate(870,380) scale(1.1)"/>
+<use href="#star" transform="translate(700,300) scale(1.1)"/>
+<use href="#star" transform="translate(860,200) scale(0.7)"/>
+<use href="#star" transform="translate(900,560) scale(0.8)"/>
+<use href="#star" transform="translate(640,440) scale(0.5)"/>
+</g>
+</g></svg>
